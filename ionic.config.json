@@ -1,0 +1,7 @@
+{
+  "name": "aulaGAP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

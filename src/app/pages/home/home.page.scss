@@ -1,0 +1,52 @@
+.background {
+    color:bisque;
+ }
+ .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+    width: 60%; /* Set width to 100% */
+    margin: auto;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  } 
+
+
+  .dropdown {
+    display: none; /* Esconde o dropdown por padrão */
+    position: absolute; /* Posiciona o dropdown em relação ao botão */
+    z-index: 1; /* Certifica-se de que o dropdown esteja na frente de outros elementos */
+  }
+  
+  #meu-botao:hover + #meu-dropdown,
+  #meu-dropdown:hover {
+    display: block; /* Exibe o dropdown quando o botão é clicado ou o cursor está sobre ele */
+  }
+  
+
+  h3 {
+    margin-top: 50;
+
+  }
+
+  .centralizar {
+
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+  }
